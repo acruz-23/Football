@@ -5,9 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      img {
+        max-width: 400px;
+      }
+    </style>
   </head>
   <body>
-    <select id="teamList" name="teams"></select>
+    <form>
+      <select id="teamList" name="teams"></select>
+      <button type="submit" id="teamBtn">Click Me!</button>
+    </form>
+
+    <p id="teamInfo"></p>
     <script src="./scripts/scripts.js"></script>
+    <img id="teamImg" src="" />
   </body>
 </html>
